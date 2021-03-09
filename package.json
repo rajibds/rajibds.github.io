@@ -1,5 +1,6 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "portfolio",
+  "homepage": "http://rajibds.github.io",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
@@ -47,6 +48,7 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "deploy": "yarn build && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
