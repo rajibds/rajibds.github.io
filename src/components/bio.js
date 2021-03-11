@@ -51,7 +51,7 @@ const Bio = () => {
             <strong>{author.name}</strong>, {author?.summary || null}
           </p>
           <div className="bio-details__social-media">
-            <a href={`https://github.com/${social?.github || ``}`}>Github</a>,{" "}
+            <a href={`https://github.com/${social?.github || ""}`}>Github</a>,{" "}
             {""}
             <a href={`https://linkedin.com/in/${social?.linkedIn || ``}`}>
               LinkedIn
